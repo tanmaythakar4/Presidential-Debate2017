@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+body {
+  font: 10px sans-serif;
+}
+
+h3 {
+	color: blue;
+}
+
+h4.bold {
+	font-weight: Bold;
+}
+
+h4.normal {
+	font-style: italic;
+	font-weight: normal;
+}
+
+.node rect {
+  cursor: pointer;
+  fill: #fff;
+  fill-opacity: .5;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+path.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: #fd8d3c;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+.highlight
+{
+background-color: #FFFF00;
+font-weight: bold;
+}
+
+
+
+.container
+{
+   overflow: hidden;
+   box-sizing: border-box;
+}
+.div2 {
+    padding-left: 0px;
+    float:left;
+}
+
+.div3 {
+    overflow: hidden;
+    padding-right: 100px;
+}
